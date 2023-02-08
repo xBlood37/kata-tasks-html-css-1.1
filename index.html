@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="container container_shadow">
+        <img
+          class="container__img"
+          src="./img/bg.jpg"
+          alt="фоновое изображение"
+        />
+        <div class="registerContainer registerContainer_padding">
+          <div class="title">
+            <h1 class="title__h1">Get iinto it today</h1>
+            <h3 class="title__h3">
+              There is no charge or obligation upon registration
+            </h3>
+          </div>
+          <div class="socialContainer">
+            <button
+              class="socialContainer__button socialContainer__button_facebook"
+            >
+              <img src="img/facebook.svg" alt="facebook" width="20px" />
+              <span class="socialContainer__button-span"
+                >Register with Facebook</span
+              >
+            </button>
+            <button
+              class="socialContainer__button socialContainer__button_linkedIn"
+            >
+              <img src="img/linkedin.svg" alt="linkedin" width="20px" />
+              <span class="socialContainer__button-span"
+                >Register with linkedIn</span
+              >
+            </button>
+          </div>
+          <!-- так и не понял как сделать этот or с черточками -->
+          <div class="registerForm">
+            <!-- не знаю form блок или нет поэтому поставил блок -->
+            <form class="form" action="#">
+              <input
+                class="form__input form__input-width"
+                type="text"
+                name="email"
+                placeholder="Email"
+              />
+              <input
+                class="form__input form__input-width"
+                type="text"
+                name="phone"
+                placeholder="Phone"
+              />
+            </form>
+            <div class="subtitleForm">
+              <div class="title">
+                <h2 class="title__h2">What type of investor are you?</h2>
+                <h3 class="title__h3">
+                  Select the type of investor you are below
+                </h3>
+              </div>
+              <div class="radioCheckbox">
+                <label class="radioCheckbox__label">
+                  <input type="radio" name="radio" />
+                  Individual
+                </label>
+                <label class="radioCheckbox__label">
+                  <input type="radio" name="radio" />
+                  Business
+                </label>
+                <label class="radioCheckbox__label">
+                  <input type="radio" name="radio" />
+                  IRA
+                </label>
+                <label class="radioCheckbox__label">
+                  <input type="radio" name="radio" />
+                  Trust
+                </label>
+              </div>
+              <label class="notifications">
+                <input type="checkbox" disabled />
+                i agree to the terms and receiving notifications from iinto
+                <a href="#">Veiw full terms</a>
+              </label>
+              <button class="subtitleForm__button">Create Account</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

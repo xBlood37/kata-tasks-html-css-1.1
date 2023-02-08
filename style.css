@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #eff6ff;
+}
+
+.container {
+  display: flex;
+  min-width: 1200px;
+}
+
+.container_shadow {
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
+}
+
+.container__img {
+  max-height: 800px;
+  max-width: 759px;
+}
+
+.title__h1 {
+  font-family: "Barlow";
+  font-size: 25px;
+}
+
+.title__h3 {
+  font-family: "Barlow";
+  opacity: 0.5;
+}
+
+.registerContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+
+  min-width: 607px;
+  background-color: white;
+}
+
+.registerContainer_padding {
+  padding: 60px 35px 60px 35px;
+}
+
+.socialContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.socialContainer__button {
+  color: white;
+  padding: 2px 18px 2px 18px;
+  border: none;
+  width: 250px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.socialContainer__button_facebook {
+  background: #255a9b;
+}
+
+.socialContainer__button_linkedIn {
+  background: #0076b6;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form__input {
+  outline: none;
+  border-left: 2px solid #c4c3f5;
+  border-top: 2px solid #02020c0c;
+  border-right: 2px solid #02020c0c;
+  border-bottom: 2px solid #02020c0c;
+}
+
+.form__input-width {
+  width: 243px;
+  height: 50px;
+}
+
+.registerForm {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.subtitleForm {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.title__h2 {
+  font-family: "Barlow";
+  font-size: 25px;
+  margin: 0;
+}
+
+.title__h3 {
+  font-family: "Barlow";
+  opacity: 0.5;
+}
+
+.radioCheckbox {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Barlow", sans-serif;
+  font-size: 20px;
+}
+
+.notifications {
+  font-family: "Barlow", sans-serif;
+  opacity: 0.5;
+}
+
+.subtitleForm__button {
+  min-width: 200px;
+  align-self: flex-start;
+  cursor: pointer;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: 0.8em 1em calc(0.8em + 3px);
+  border-radius: 3px;
+  background: rgb(124, 95, 229);
+  box-shadow: 0 -3px rgb(52 39 98 / 30%) inset;
+  transition: 0.2s;
+  border: none;
+}
